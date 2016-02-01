@@ -16,6 +16,14 @@ public class Ejercicio6 {
      */
     public static void main(String[] args) {
         
+        System.out.println("Andres Herrera");
+        
+        Computador objeto = new Computador();
+        objeto.setProcesador("Intell");
+        objeto.setMarca("Acer");
+        
+        System.out.println(objeto.getProcesador());
+        System.out.println(objeto.getMarca());
     }
     
 }
