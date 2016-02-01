@@ -19,6 +19,22 @@ public class Ejercicio6 {
         Kamasutra objeto = new Kamasutra();
         objeto.setPosicion("El helipcote en aterrizaje");
         System.out.println(objeto.getPosicion());
+        System.out.println("Brandon Sema");
+         System.out.println("Brandon Sema");
+        Condon objeto = new Condon();
+        objeto.setSabor("Chocolate");
+        objeto.setTamano("XXL Mandingo");
+        
+        System.out.println("Andres Herrera");
+        
+        Computador objeto = new Computador();
+        objeto.setProcesador("Intell");
+        objeto.setMarca("Acer");
+        
+        System.out.println(objeto.getProcesador());
+        System.out.println(objeto.getMarca());
+        System.out.println(objeto.getSabor());
+        System.out.println(objeto.getTamano());
     }
     
 }
