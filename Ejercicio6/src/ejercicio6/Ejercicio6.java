@@ -15,7 +15,10 @@ public class Ejercicio6 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
+        System.out.println("Daniel Felipe Csstellanos");
+        Kamasutra objeto = new Kamasutra();
+        objeto.setPosicion("El helipcote en aterrizaje");
+        System.out.println(objeto.getPosicion());
     }
     
 }
