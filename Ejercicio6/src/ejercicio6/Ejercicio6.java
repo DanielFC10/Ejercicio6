@@ -15,6 +15,10 @@ public class Ejercicio6 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        System.out.println("Duvan Herrera");
+        Perro objeto = new Perro();
+        objeto.setRaza("Labrador");
+        System.out.println(objeto.getRaza());
         
     }
     
