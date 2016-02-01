@@ -15,6 +15,11 @@ public class Ejercicio6 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        System.out.println("Brandon Sema");
+         System.out.println("Brandon Sema");
+        Condon objeto = new Condon();
+        objeto.setSabor("Chocolate");
+        objeto.setTamano("XXL Mandingo");
         
     }
     
