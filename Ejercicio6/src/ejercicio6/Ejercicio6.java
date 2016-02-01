@@ -16,29 +16,32 @@ public class Ejercicio6 {
      */
     public static void main(String[] args) {
         System.out.println("Duvan Herrera");
-        Perro objeto = new Perro();
-        objeto.setRaza("Labrador");
-        System.out.println(objeto.getRaza());
+        Perro objeto4 = new Perro();
+        objeto4.setRaza("Labrador");
+
         System.out.println("Daniel Felipe Csstellanos");
-        Kamasutra objeto = new Kamasutra();
-        objeto.setPosicion("El helipcote en aterrizaje");
-        System.out.println(objeto.getPosicion());
+        Kamasutra objeto3 = new Kamasutra();
+        objeto3.setPosicion("El helipcote en aterrizaje");
+
+        System.out.println("Andres Herrera");
+        Computador objeto1 = new Computador();
+        objeto1.setProcesador("Intell");
+        objeto1.setMarca("Acer");
+
         System.out.println("Brandon Sema");
-         System.out.println("Brandon Sema");
         Condon objeto = new Condon();
         objeto.setSabor("Chocolate");
         objeto.setTamano("XXL Mandingo");
-        
-        System.out.println("Andres Herrera");
-        
-        Computador objeto = new Computador();
-        objeto.setProcesador("Intell");
-        objeto.setMarca("Acer");
-        
-        System.out.println(objeto.getProcesador());
-        System.out.println(objeto.getMarca());
+
+        System.out.println(objeto4.getRaza());
+
+        System.out.println(objeto3.getPosicion());
+
+        System.out.println(objeto1.getProcesador());
+        System.out.println(objeto1.getMarca());
+
         System.out.println(objeto.getSabor());
         System.out.println(objeto.getTamano());
     }
-    
+
 }
