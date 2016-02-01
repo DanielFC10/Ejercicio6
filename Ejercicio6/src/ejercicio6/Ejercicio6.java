@@ -21,6 +21,8 @@ public class Ejercicio6 {
         objeto.setSabor("Chocolate");
         objeto.setTamano("XXL Mandingo");
         
+        System.out.println(objeto.getSabor());
+        System.out.println(objeto.getTamano());
     }
     
 }
